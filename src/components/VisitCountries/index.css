@@ -1,0 +1,44 @@
+.appContainer {
+  background-color: #161624;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  background-color: #161624;
+}
+.head {
+  color: #f1f5f9;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.NoCountries {
+  color: #f1f5f9;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unorderedList {
+  margin-top: 20px;
+  border: 1px solid #334155;
+  padding-left: 0px;
+  height: 30vh;
+  overflow-y: scroll;
+}
+.visitedCountries {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 100%;
+  background-color: #1f1f2f;
+}
